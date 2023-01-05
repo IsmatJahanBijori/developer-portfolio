@@ -42,12 +42,13 @@ nav ul {
     /* color: rgba(0, 0, 0, 0.356); */
     /* keno jani na hire button bold hoye jacche */
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     border: 0;
     padding: 18px 35px;
     height: 64px;
     border-radius: 5px;
     background-color: orangered;
+    margin-bottom: 10px;
 }
 
 /* banner styles */
@@ -88,6 +89,7 @@ nav ul {
 
 .section-title {
 
+    text-align: center;
     margin-bottom: 18px;
     font-size: 35px;
     font-weight: 700;
@@ -161,21 +163,22 @@ main {
 .resume-content{
 display: flex;
 gap: 24px;
+/* justify-content: space-between; */
 }
-.resume-title{
+.resume .title{
 font-weight: 700;
 font-size: 25px;
 color: #474747;
 margin-bottom: 10px;
 }
 
-.resume-subtitle{
+.resume .subtitle{
     font-weight: 600;
     font-size: 20px;
     color: #474747;
     margin-bottom: 20px;
 }
-.resume-des{
+.resume .des{
 color: #757575;
 }
 
@@ -194,13 +197,14 @@ color: #757575;
     display: flex;
     gap: 100;
     background-color: #fff8f3;
-    padding: 130px 200px;
+    padding: 50px 100px; 
+    
 }
 .contact .section-title{
 text-align: left;
 }
 
-.contact input[type="text"], input[type="email"], textarea{
+.contact input[type="text"], input[type="email"], input[type="phone"], textarea{
     margin-bottom: 24px;
     border: 0;
     width: 100%;
